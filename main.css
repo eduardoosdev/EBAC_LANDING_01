@@ -1,0 +1,26 @@
+body {
+    font-family: Roboto, 'sans-serif';
+}
+
+.navbar {
+    background-color: lightsalmon;
+}
+
+.nav .nav-link.active{
+    background-color: white;
+    color: lightsalmon;    
+}
+
+.navbar-brand {
+    font-family: Pacifico, cursive;
+}
+
+.nav .nav-link,
+.navbar-brand, 
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
