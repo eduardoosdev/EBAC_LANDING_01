@@ -1,26 +1,60 @@
 body {
-    font-family: Roboto, 'sans-serif';
+    font-family: Roboto, sans-serif;
 }
 
 .navbar {
-    background-color: lightsalmon;
+    background-color: slateblue;
 }
 
-.nav .nav-link.active{
+#cabecalho .nav .nav-link.active{
     background-color: white;
-    color: lightsalmon;    
+    color: black;
 }
 
-.navbar-brand {
-    font-family: Pacifico, cursive;
-}
-
-.nav .nav-link,
-.navbar-brand, 
-.navbar-brand:hover{
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-estilos .nav-link.active:hover {
     color: white;
 }
 
 .navbar-toggler {
     background-color: white;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-estudio, #estilos {
+    background-color: #CBC3E3;
+}
+
+.text-colored {
+    color: slateblue;
+}
+
+.nav-estilos .nav-link.active,
+#fale-conosco button {
+    background-color: slateblue;
+    color: white;
+}
+
+.nav-estilos .nav-link:hover {
+    color: slateblue;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
 }
